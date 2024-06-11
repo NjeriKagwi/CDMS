@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*navbar section*/
+
+nav{
+    background-color: rgb(250,230,234);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h5{
+    color: rgb(75,134,254);
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+    border-style: none !important;
+}
+
+/*Hero section*/
+.hero{
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.hero-text{
+    padding-top: 250px;
+}                                     
+
+.hero-text h5{
+    color: white;
+}
+
+.hero-text h4{
+    color: white;
+}
+
+.hero-text p{
+    color: grey;
+}
+
+button{
+    color: white;
+}
+
+
+/*About us section*/
+.about p{
+    text-align: justify;
+}
+
+.about img{
+    min-height: 250px;
+}
+
+/*Footer section*/
+.footer h4{
+    color: white;
+}
+
+::placeholder{
+    padding-left: 10px;
+}
+
+.footer #email{
+    height: 40px;
+}
